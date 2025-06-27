@@ -2452,7 +2452,6 @@ class NewsAnalyzer:
             "tieba",
             "weibo",
             "zaobao",
-            "xueqiu",
             "wallstreetcn",
             "v2ex",
             "thepaper",
