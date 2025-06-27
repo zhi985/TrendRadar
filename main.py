@@ -2451,7 +2451,17 @@ class NewsAnalyzer:
             ("ifeng", "凤凰网"),
             "tieba",
             "weibo",
-            "douyin",
+            "zaobao",
+            "xueqiu",
+            "wallstreetcn",
+            "v2ex",
+            "thepaper",
+            "sspai",
+            "pcbeta",
+            "smzdm",
+            "hupu",
+            "chongbuluo",
+            "cankaoxiaoxi",
             "zhihu",
         ]
 
