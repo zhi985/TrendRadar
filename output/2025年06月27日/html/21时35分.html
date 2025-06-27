@@ -1,0 +1,138 @@
+
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>频率词统计报告</title>
+            <style>
+                body { font-family: Arial, sans-serif; margin: 20px; }
+                h1, h2 { color: #333; }
+                table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+                th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+                th { background-color: #f2f2f2; }
+                tr:nth-child(even) { background-color: #f9f9f9; }
+                .word { font-weight: bold; }
+                .count { text-align: center; }
+                .percentage { text-align: center; }
+                .titles { max-width: 500px; }
+                .source { color: #666; font-style: italic; }
+                .error { color: #d9534f; }
+                .news-link { 
+                    color: #007bff; 
+                    text-decoration: none; 
+                    border-bottom: 1px dotted #007bff;
+                }
+                .news-link:hover { 
+                    color: #0056b3; 
+                    text-decoration: underline; 
+                }
+                .news-link:visited { 
+                    color: #6f42c1; 
+                }
+                .no-link { 
+                    color: #333; 
+                }
+                .new-title {
+                    background-color: #fff3cd;
+                    border: 1px solid #ffc107;
+                    border-radius: 3px;
+                    padding: 2px 6px;
+                    margin: 2px 0;
+                }
+                .new-section {
+                    background-color: #d1ecf1;
+                    border: 1px solid #bee5eb;
+                    border-radius: 5px;
+                    padding: 10px;
+                    margin-top: 10px;
+                }
+                .new-section h3 {
+                    color: #0c5460;
+                    margin-top: 0;
+                }
+            </style>
+        </head>
+        <body>
+            <h1>频率词统计报告</h1>
+        <p>总标题数: 255</p><p>生成时间: 2025-06-27 21:35:49</p>
+            <table>
+                <tr>
+                    <th>排名</th>
+                    <th>频率词</th>
+                    <th>出现次数</th>
+                    <th>占比</th>
+                    <th>相关标题</th>
+                </tr>
+        
+                <tr>
+                    <td>1</td>
+                    <td class="word">中央 反腐</td>
+                    <td class="count">3</td>
+                    <td class="percentage">1.18%</td>
+                    <td class="titles">[今日头条] <a href="https://www.toutiao.com/trending/7519813953904787466/" target="_blank" class="news-link">苗华被免去中央军委委员职务</a> [7] <font color='grey'>- 21时35分</font><br>[百度热搜] <a href="https://www.baidu.com/s?wd=%E8%8B%97%E5%8D%8E%E8%A2%AB%E5%85%8D%E5%8E%BB%E4%B8%AD%E5%A4%AE%E5%86%9B%E4%BA%8B%E5%A7%94%E5%91%98%E4%BC%9A%E5%A7%94%E5%91%98%E8%81%8C%E5%8A%A1" target="_blank" class="news-link">苗华被免去中央军事委员会委员职务</a> [7] <font color='grey'>- 21时35分</font><br>[douyin] <a href="https://www.douyin.com/hot/2146738" target="_blank" class="news-link">苗华被免去中央军委委员职务</a> [13] <font color='grey'>- 21时35分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>2</td>
+                    <td class="word">手机 华为 OPPO VIVO 一加</td>
+                    <td class="count">2</td>
+                    <td class="percentage">0.78%</td>
+                    <td class="titles">[凤凰网] <a href="https://news.ifeng.com/c/8kWwKczjFx7" target="_blank" class="news-link">特朗普集团悄悄撤下“美国制造”手机承诺</a> [8] <font color='grey'>- 21时35分</font><br>[weibo] <a href="https://m.weibo.cn/search?containerid=231522type%3D1%26q%3D%23%E9%99%88%E6%A5%9A%E7%94%9F%E8%AF%B4%E4%BB%8Evivo%E5%BD%B1%E5%83%8F%E9%87%8C%E7%9C%8B%E8%87%AA%E5%B7%B1%23&amp;_T_WM=16922097837&amp;v_p=42" target="_blank" class="news-link">陈楚生说从vivo影像里看自己</a> [23] <font color='grey'>- 21时35分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>3</td>
+                    <td class="word">经济</td>
+                    <td class="count">2</td>
+                    <td class="percentage">0.78%</td>
+                    <td class="titles">[douyin] <a href="https://www.douyin.com/hot/2146397" target="_blank" class="news-link">夏日经济 “新赛道” 升温</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 21时35分</font><br>[zhihu] <a href="https://www.zhihu.com/question/1919312865917122534" target="_blank" class="news-link">假如诸葛亮不痴迷北伐，全力退守，大力发展农业商业经济，军事做好布防，蜀国的气运能不能多延续几年?</a> [8] <font color='grey'>- 21时35分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>4</td>
+                    <td class="word">DeepSeek 梁文锋</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.39%</td>
+                    <td class="titles">[财联社热门] <a href="https://www.cls.cn/detail/2069804" target="_blank" class="news-link">年中盘点|DeepSeek开启AI平权，人形机器人重塑具身智能，LABUBU引领新消费热潮......一文看懂2025年上半年A股热炒题材</a> [7] <font color='grey'>- 21时35分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>5</td>
+                    <td class="word">京东 刘强东</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.39%</td>
+                    <td class="titles">[zhihu] <a href="https://www.zhihu.com/question/1921864916538726011" target="_blank" class="news-link">「京东外卖」小范围测试骑手帮扔垃圾服务，每单平台补贴骑手 0.5 元，你会选择让骑手帮扔垃圾吗？</a> [6] <font color='grey'>- 21时35分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>6</td>
+                    <td class="word">科技</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.39%</td>
+                    <td class="titles"><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2070108" target="_blank" class="news-link">国常会：听取关于贯彻落实全国科技大会精神 加快建设科技强国情况的汇报</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 21时35分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>7</td>
+                    <td class="word">月球 登月 火星 宇宙 飞船</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.39%</td>
+                    <td class="titles"><div class='new-title'>🆕 [weibo] <a href="https://m.weibo.cn/search?containerid=231522type%3D1%26q%3D%23%E7%BE%8E%E4%B8%80%E9%A3%9E%E8%88%B9%E5%A4%B1%E6%8E%A7150%E4%BA%BA%E9%AA%A8%E7%81%B0%E5%85%A8%E6%89%AC%E4%BA%86%23&amp;_T_WM=16922097837&amp;v_p=42" target="_blank" class="news-link">美一飞船失控150人骨灰全扬了</a> [9] <font color='grey'>- 21时35分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>8</td>
+                    <td class="word">消费</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.39%</td>
+                    <td class="titles">[华尔街见闻] <a href="https://wallstreetcn.com/articles/3749917" target="_blank" class="news-link">美国一季度GDP终值下修至-0.5%，个人消费创疫情以来最弱表现</a> [7] <font color='grey'>- 21时35分</font></td>
+                </tr>
+            
+            </table>
+        
+            <div class="new-section">
+                <h3>🆕 本次新增热点新闻 (共 2 条)</h3>
+            <h4>财联社热门 (1 条)</h4><ul><li><a href="https://www.cls.cn/detail/2070108" target="_blank" class="news-link">国常会：听取关于贯彻落实全国科技大会精神 加快建设科技强国情况的汇报</a> <font color='red'><strong>[5]</strong></font></li></ul><h4>weibo (1 条)</h4><ul><li><a href="https://m.weibo.cn/search?containerid=231522type%3D1%26q%3D%23%E7%BE%8E%E4%B8%80%E9%A3%9E%E8%88%B9%E5%A4%B1%E6%8E%A7150%E4%BA%BA%E9%AA%A8%E7%81%B0%E5%85%A8%E6%89%AC%E4%BA%86%23&amp;_T_WM=16922097837&amp;v_p=42" target="_blank" class="news-link">美一飞船失控150人骨灰全扬了</a> [9]</li></ul></div>
+        </body>
+        </html>
+        
