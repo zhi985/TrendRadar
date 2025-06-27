@@ -43,12 +43,6 @@ HarmonyOS
 微软
 Microsoft
 
-黄仁勋
-英伟达
-NVIDIA
-
-AMD
-
 谷歌
 google
 gemini
@@ -72,6 +66,10 @@ ai
 汽车
 自动驾驶
 l3
+!小米
+!YU7
+!雷军
+!王腾
 
 机器人
 
