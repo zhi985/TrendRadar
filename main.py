@@ -2443,7 +2443,6 @@ class NewsAnalyzer:
 
         ids = [
             ("toutiao", "今日头条"),
-            ("baidu", "百度热搜"),
             ("wallstreetcn-hot", "华尔街见闻"),
             ("thepaper", "澎湃新闻"),
             ("bilibili-hot-search", "bilibili 热搜"),
@@ -2452,18 +2451,15 @@ class NewsAnalyzer:
             "tieba",
             "weibo",
             "zaobao",
-            "wallstreetcn",
             "v2ex",
             "thepaper",
             "sspai",
             "pcbeta",
-            "smzdm",
             "hupu",
             "chongbuluo",
             "cankaoxiaoxi",
             "zhihu",
             "_36kr",
-            "gelonghui",
             "jin10",
         ]
 
