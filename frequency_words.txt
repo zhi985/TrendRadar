@@ -1,14 +1,5 @@
 DeepSeek
-微软
-Microsoft
-谷歌
-google
-gemini
-deepmind
 chatgpt
-openai
-claude
-Anthropic
 ai
 !gai
 人工智能
@@ -40,26 +31,9 @@ VIVO
 北京
 中央
 
-美团
-饿了么
-京东
-拼多多
-淘宝
-阿里
-
 医保
 医疗
 社保
 基金
 公积金
-
-鬼畜
-沙雕
-社会
-知识
-人文
-科普
-电影
-电视剧
-解说
 
