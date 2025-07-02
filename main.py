@@ -2457,7 +2457,14 @@ class NewsAnalyzer:
             "chongbuluo",
             "cankaoxiaoxi",
             "zhihu",
-            "_36kr",
+            "bilibili",
+            "ghxi",
+            "github",
+            "hackernews",
+            "kaopu",
+            "smzdm",
+            "producthunt",
+            "xueqiu",
             "jin10",
         ]
 
