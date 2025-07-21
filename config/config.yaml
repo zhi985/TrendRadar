@@ -25,7 +25,7 @@ crawler:
 #   • 适用场景：避免重复信息干扰
 
 report:
-  mode: "daily" # 可选: "daily"|"incremental"|"current"
+  mode: "incremental" # 可选: "daily"|"incremental"|"current"
   rank_threshold: 5 # 排名高亮阈值
 
 notification:
@@ -66,7 +66,26 @@ platforms:
     name: "贴吧"
   - id: "weibo"
     name: "微博"
-  - id: "douyin"
-    name: "抖音"
   - id: "zhihu"
     name: "知乎"
+  - id: "v2ex"
+    name: "v2ex"
+  - id: "sspai"
+    name: "少数派"
+  - id: "hupu"
+    name: "虎扑"  
+  - id: "v2ex"
+    name: "v2ex"
+  - id: "chongbuluo"
+    name: "虫部落"
+  - id: "cankaoxiaoxi"
+    name: "参考消息"
+  - id: "ghxi"
+    name: "果核剥壳"
+  - id: "kaopu"
+    name: "kaopu"
+  - id: "smzdm"
+    name: "什么值得买"    
+  - id: "jin10"
+    name: "金十"    
+    
