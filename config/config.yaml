@@ -1,7 +1,7 @@
 app:
   version: "2.0.0"
   version_check_url: "https://raw.githubusercontent.com/sansan0/TrendRadar/refs/heads/master/version"
-  show_version_update: true # 控制显示版本更新提示，改成 false 将不接受新版本提示
+  show_version_update: false # 控制显示版本更新提示，改成 false 将不接受新版本提示
 
 crawler:
   request_interval: 1000 # 请求间隔(毫秒)
@@ -84,4 +84,5 @@ platforms:
     name: "kaopu"
   - id: "wallstreetcn"
     name: "华尔街"
-    
+  - id: "solidot"
+    name: "solidot"    
