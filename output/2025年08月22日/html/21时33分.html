@@ -1,0 +1,111 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 45</p><p>生成时间: 2025-08-22 21:33:50</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">社保 养老 医疗 生育 失业 工伤 保险 缴费</td>
+                <td class="count">2</td>
+                <td class="percentage">4.44%</td>
+                <td class="titles"><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7540508716467044406/" target="_blank" class="news-link">个人养老金提前领取后还能续缴吗</a> [21] <font color='grey'>- 21时33分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E5%A5%B3%E5%AD%90%E5%8A%9E%E8%99%9A%E5%81%87%E6%88%B7%E5%8F%A3%E7%B0%BF%E9%A2%86%E5%87%BA%E8%BF%9110%E4%B8%87%E5%85%BB%E8%80%81%E9%87%91" target="_blank" class="news-link">女子办虚假户口簿领出近10万养老金</a> [29] <font color='grey'>- 21时33分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">医学 医疗 中央 反腐</td>
+                <td class="count">1</td>
+                <td class="percentage">2.22%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街] <a href="https://wallstreetcn.com/livenews/2962580" target="_blank" class="news-link">国家发展改革委安排3000万元中央预算内投资支持云南灾后应急恢复。（央视）</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 21时33分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">合肥 浙江 舟山 安徽 天长 滁州 安庆 桐城 北京 中央 经济</td>
+                <td class="count">1</td>
+                <td class="percentage">2.22%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街] <a href="https://wallstreetcn.com/livenews/2962581" target="_blank" class="news-link">美国波士顿联储主席Susan M. Collins：经济增长放缓，但整体经济基本面依然稳健。 通胀面临上行风险，就业面临下行风险。</a> <font color='red'><strong>[1]</strong></font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">医保 医疗 社保 基金 公积金 政策 改革</td>
+                <td class="count">1</td>
+                <td class="percentage">2.22%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街] <a href="https://wallstreetcn.com/livenews/2962579" target="_blank" class="news-link">中国国新：公司及关联方未开展任何与稳定币基金有关的活动。</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 21时33分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>5</td>
+                <td class="word">财富 房地产 房产 土地财政 土地 改革 发展</td>
+                <td class="count">1</td>
+                <td class="percentage">2.22%</td>
+                <td class="titles"><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2123477" target="_blank" class="news-link">证券业大事件！分类评价办法新修订，亮出高质量发展“指挥棒”</a> [10] <font color='grey'>- 21时33分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
