@@ -1,0 +1,95 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 77</p><p>生成时间: 2025-09-02 13:25:54</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">合肥 浙江 舟山 安徽 天长 滁州 安庆 桐城 北京 中央 经济</td>
+                <td class="count">3</td>
+                <td class="percentage">3.9%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街] <a href="https://wallstreetcn.com/livenews/2967320" target="_blank" class="news-link">日本央行副行长冰见野良三：美日贸易协议降低不确定性。 但全球经济仍面临不确定性。 无意透露减持ETF的具体时间表。</a> <font color='red'><strong>[3]</strong></font></div><br><div class='new-title'>🆕 [华尔街] <a href="https://wallstreetcn.com/livenews/2967308" target="_blank" class="news-link">日本首相石破茂：自民党丢掉许多议席是我的责任。 当前首要任务是应对通胀。 必须实现工资增速跑赢通胀。 必须深入处理包括贸易谈判在内的经济问题。 未能达到民众期望，深感歉意。</a> [8]</div><br><div class='new-title'>🆕 [华尔街] <a href="https://wallstreetcn.com/livenews/2967301" target="_blank" class="news-link">中国－上海合作组织数字经济合作平台在天津揭牌启动</a> [15] <font color='grey'>- 13时25分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">iphone ipad mac ios 手机 华为 OPPO VIVO 一加</td>
+                <td class="count">2</td>
+                <td class="percentage">2.6%</td>
+                <td class="titles"><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1156535" target="_blank" class="news-link">在寻找 mac 端原生开发的高性能 ssh 工具的，可以来体验下，和你之前见过的真不一样</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 13时25分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://m.weibo.cn/search?containerid=100103type%3D1%26t%3D10%26q%3D%E8%BF%9E%E7%BB%AD%E4%B8%80%E4%B8%AA%E6%9C%8811%E7%82%B9%E7%9D%A1%E8%A7%89%E4%B8%8D%E7%8E%A9%E6%89%8B%E6%9C%BA%E5%90%8E&amp;stream_entry_id=31&amp;isnewpage=1&amp;extparam=seat%3D1%26flag%3D1%26c_type%3D31%26cate%3D5001%26realpos%3D26%26stream_entry_id%3D31%26dgr%3D0%26filter_type%3Drealtimehot%26band_rank%3D26%26q%3D%25E8%25BF%259E%25E7%25BB%25AD%25E4%25B8%2580%25E4%25B8%25AA%25E6%259C%258811%25E7%2582%25B9%25E7%259D%25A1%25E8%25A7%2589%25E4%25B8%258D%25E7%258E%25A9%25E6%2589%258B%25E6%259C%25BA%25E5%2590%258E%26pos%3D25%26lcate%3D5001%26display_time%3D1756790369%26pre_seqid%3D175679036939294179072155" target="_blank" class="news-link">连续一个月11点睡觉不玩手机后</a> [26] <font color='grey'>- 13时25分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">车祸 开车+事故 警示录 警示 小明 背锅 骑车 汽车 碰撞 撞</td>
+                <td class="count">2</td>
+                <td class="percentage">2.6%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街] <a href="https://wallstreetcn.com/livenews/2967322" target="_blank" class="news-link">特斯拉印度开售表现平平 汽车订单量远低于目标</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 13时25分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://m.weibo.cn/search?containerid=100103type%3D1%26t%3D10%26q%3D%E6%9D%8E%E6%B2%81%E8%8A%B1%E5%B0%91%E9%98%B2%E6%92%9E%E6%9D%A1&amp;stream_entry_id=31&amp;isnewpage=1&amp;extparam=seat%3D1%26flag%3D1%26c_type%3D31%26cate%3D5001%26realpos%3D28%26stream_entry_id%3D31%26dgr%3D0%26filter_type%3Drealtimehot%26band_rank%3D28%26q%3D%25E6%259D%258E%25E6%25B2%2581%25E8%258A%25B1%25E5%25B0%2591%25E9%2598%25B2%25E6%2592%259E%25E6%259D%25A1%26pos%3D27%26lcate%3D5001%26display_time%3D1756790369%26pre_seqid%3D175679036939294179072155" target="_blank" class="news-link">李沁花少防撞条</a> [28] <font color='grey'>- 13时25分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
