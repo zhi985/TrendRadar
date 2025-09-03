@@ -1,0 +1,103 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 149</p><p>生成时间: 2025-09-03 09:50:56</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">合肥 浙江 舟山 安徽 天长 滁州 安庆 桐城 北京 中央 经济</td>
+                <td class="count">4</td>
+                <td class="percentage">2.68%</td>
+                <td class="titles"><div class='new-title'>🆕 [凤凰网] <a href="https://news.ifeng.com/c/8mL86RKh0Lk" target="_blank" class="news-link">今天，为什么这26国领导人齐来北京？</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 09时50分</font></div><br><div class='new-title'>🆕 [华尔街] <a href="https://wallstreetcn.com/livenews/2967821" target="_blank" class="news-link">A股机器人概念股继续活跃，春兴精工、秦川机床、浙江荣泰均2连板，科达自控、博杰股份、兰剑智能等涨幅居前，消息上，宇树科技宣布将在四季度提交IPO申请。</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 09时50分</font></div><br><div class='new-title'>🆕 [澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_31532439" target="_blank" class="news-link">纪念中国人民抗日战争暨世界反法西斯战争胜利80周年大会将在北京天安门广场隆重举行</a> [15] <font color='grey'>- 09时50分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7545488146814615606/" target="_blank" class="news-link">北京2950处夜景照明全面开启</a> [26] <font color='grey'>- 09时50分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">DeepSeek chatgpt ai 人工智能</td>
+                <td class="count">1</td>
+                <td class="percentage">0.67%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街] <a href="https://wallstreetcn.com/livenews/2967787" target="_blank" class="news-link">银河证券：科技进步+龙头布局，AI智能床垫市场扩容逻辑扎实</a> [27] <font color='grey'>- 09时50分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">医保 医疗 社保 基金 公积金 政策 改革</td>
+                <td class="count">1</td>
+                <td class="percentage">0.67%</td>
+                <td class="titles"><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/1946342363699049989" target="_blank" class="news-link">携程宣布 9 月起全员推广居家办公，不用领导审批，如何评价这一政策？对员工来说是好事吗？</a> [10] <font color='grey'>- 09时50分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">车祸 开车+事故 警示录 警示 小明 背锅 骑车 汽车 碰撞 撞</td>
+                <td class="count">1</td>
+                <td class="percentage">0.67%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街] <a href="https://wallstreetcn.com/livenews/2967805" target="_blank" class="news-link">习近平说，历史警示人们，人类命运休戚与共，各个国家、各个民族只有平等相待、和睦相处、守望相助，才能维护共同安全，消弭战争根源，不让历史悲剧重演！（新华社）</a> [17] <font color='grey'>- 09时50分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
