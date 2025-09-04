@@ -1,0 +1,111 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 60</p><p>生成时间: 2025-09-04 17:26:28</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">iphone ipad mac ios 手机 华为 OPPO VIVO 一加</td>
+                <td class="count">7</td>
+                <td class="percentage">11.67%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街] <a href="https://wallstreetcn.com/livenews/2968646" target="_blank" class="news-link">机构：预估2025年iPhone 17系列出货量小幅增长</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 17时26分</font></div><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2135652" target="_blank" class="news-link">麒麟芯片时隔四年回归发布会！华为新款三折叠屏手机来了</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 17时26分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7545695816191606838/" target="_blank" class="news-link">华为新款三折叠手机起售价17999元</a> [15] <font color='grey'>- 17时26分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://m.weibo.cn/search?containerid=100103type%3D1%26t%3D10%26q%3D%23%E5%8D%8E%E4%B8%BAMateTV%E8%B5%B7%E5%94%AE%E4%BB%B78999%E5%85%83%23&amp;stream_entry_id=31&amp;isnewpage=1&amp;extparam=seat%3D1%26realpos%3D15%26filter_type%3Drealtimehot%26lcate%3D5001%26c_type%3D31%26pos%3D15%26cate%3D5001%26q%3D%2523%25E5%258D%258E%25E4%25B8%25BAMateTV%25E8%25B5%25B7%25E5%2594%25AE%25E4%25BB%25B78999%25E5%2585%2583%2523%26flag%3D1%26band_rank%3D15%26stream_entry_id%3D31%26dgr%3D0%26display_time%3D1756977890%26pre_seqid%3D175697789053604170120133" target="_blank" class="news-link">华为MateTV起售价8999元</a> [15] <font color='grey'>- 17时26分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7545355406323859475/" target="_blank" class="news-link">华为首款MateTV售价8999元起</a> [18] <font color='grey'>- 17时26分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://m.weibo.cn/search?containerid=100103type%3D1%26t%3D10%26q%3D%23%E5%8D%8E%E4%B8%BA%E6%96%B0%E4%B8%89%E6%8A%98%E5%8F%A0%E5%83%8F%E7%94%A8%E7%94%B5%E8%84%91%E4%B8%80%E6%A0%B7%E7%94%A8%E6%89%8B%E6%9C%BA%23&amp;stream_entry_id=31&amp;isnewpage=1&amp;extparam=seat%3D1%26realpos%3D20%26filter_type%3Drealtimehot%26lcate%3D5001%26c_type%3D31%26pos%3D20%26cate%3D5001%26q%3D%2523%25E5%258D%258E%25E4%25B8%25BA%25E6%2596%25B0%25E4%25B8%2589%25E6%258A%2598%25E5%258F%25A0%25E5%2583%258F%25E7%2594%25A8%25E7%2594%25B5%25E8%2584%2591%25E4%25B8%2580%25E6%25A0%25B7%25E7%2594%25A8%25E6%2589%258B%25E6%259C%25BA%2523%26flag%3D1%26band_rank%3D20%26stream_entry_id%3D31%26dgr%3D0%26display_time%3D1756977890%26pre_seqid%3D175697789053604170120133" target="_blank" class="news-link">华为新三折叠像用电脑一样用手机</a> [20] <font color='grey'>- 17时26分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://m.weibo.cn/search?containerid=100103type%3D1%26t%3D10%26q%3D%23%E5%8D%8E%E4%B8%BA%E6%96%B0%E4%B8%89%E6%8A%98%E5%8F%A0%E6%90%AD%E8%BD%BD%E7%BA%A2%E6%9E%AB%E5%8E%9F%E8%89%B2%E5%BD%B1%E5%83%8F%23&amp;stream_entry_id=31&amp;isnewpage=1&amp;extparam=seat%3D1%26realpos%3D28%26filter_type%3Drealtimehot%26lcate%3D5001%26c_type%3D31%26pos%3D28%26cate%3D5001%26q%3D%2523%25E5%258D%258E%25E4%25B8%25BA%25E6%2596%25B0%25E4%25B8%2589%25E6%258A%2598%25E5%258F%25A0%25E6%2590%25AD%25E8%25BD%25BD%25E7%25BA%25A2%25E6%259E%25AB%25E5%258E%259F%25E8%2589%25B2%25E5%25BD%25B1%25E5%2583%258F%2523%26flag%3D1%26band_rank%3D28%26stream_entry_id%3D31%26dgr%3D0%26display_time%3D1756977890%26pre_seqid%3D175697789053604170120133" target="_blank" class="news-link">华为新三折叠搭载红枫原色影像</a> [28] <font color='grey'>- 17时26分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">合肥 浙江 舟山 安徽 天长 滁州 安庆 桐城 北京 中央 经济</td>
+                <td class="count">2</td>
+                <td class="percentage">3.33%</td>
+                <td class="titles"><div class='new-title'>🆕 [参考消息] <a href="https://ckxxapp.ckxx.net/pages/2025/09/04/2cfa591ad09c4f52b3235a873ccefbcc.html" target="_blank" class="news-link">“解职威胁”动摇美联储独立性原则 近600名经济学家联名声援库克理事</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 17时26分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E5%8C%97%E4%BA%AC%E6%9D%9C%E8%8E%8E%E5%A4%AB%E4%BA%BA%E8%9C%A1%E5%83%8F%E9%A6%86%E5%B0%86%E6%B0%B8%E4%B9%85%E5%85%B3%E5%81%9C" target="_blank" class="news-link">北京杜莎夫人蜡像馆将永久关停</a> [18] <font color='grey'>- 17时26分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">DeepSeek chatgpt ai 人工智能</td>
+                <td class="count">1</td>
+                <td class="percentage">1.67%</td>
+                <td class="titles"><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1157123" target="_blank" class="news-link">推荐一款 AI 驱动的专注力伙伴 - PomoGo</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 17时26分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">财富 房地产 房产 土地财政 土地 改革 发展</td>
+                <td class="count">1</td>
+                <td class="percentage">1.67%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街] <a href="https://wallstreetcn.com/livenews/2968640" target="_blank" class="news-link">国办：到2030年体育产业发展水平大幅跃升，总规模超过7万亿元</a> [7] <font color='grey'>- 17时26分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>5</td>
+                <td class="word">车祸 开车+事故 警示录 警示 小明 背锅 骑车 汽车 碰撞 撞</td>
+                <td class="count">1</td>
+                <td class="percentage">1.67%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街] <a href="https://wallstreetcn.com/livenews/2968634" target="_blank" class="news-link">报道称美日接近达成协议降低日本汽车关税，美元/日元维持涨势</a> [11] <font color='grey'>- 17时26分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
