@@ -1,0 +1,103 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 24</p><p>生成时间: 2025-09-10 05:21:24</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">DeepSeek chatgpt ai 人工智能</td>
+                <td class="count">2</td>
+                <td class="percentage">8.33%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街] <a href="https://wallstreetcn.com/livenews/2971175" target="_blank" class="news-link">周二（9月9日），人工智能（AI）赢家指数涨1.24%，报252.26点。 AI软件先驱指数涨0.71%，报130.47点。</a> <font color='red'><strong>[4]</strong></font></div><br><div class='new-title'>🆕 [华尔街] <a href="https://wallstreetcn.com/livenews/2971167" target="_blank" class="news-link">甲骨文美股盘后涨幅扩大至22.15%。 人工智能（AI）基础设施概念股CoreWeave涨3.7%，AMD和英伟达涨2%，超微电脑涨1.7%，GE Vernova涨1.5%，核电概念股Constellation Energy涨1.3%。</a> [11]</div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">医保 医疗 社保 基金 公积金 政策 改革</td>
+                <td class="count">2</td>
+                <td class="percentage">8.33%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街] <a href="https://wallstreetcn.com/livenews/2971171" target="_blank" class="news-link">美国财长贝森特：相信最高法院将支持总统特朗普的关税政策。</a> [8] <font color='grey'>- 05时21分</font></div><br><div class='new-title'>🆕 [华尔街] <a href="https://wallstreetcn.com/livenews/2971166" target="_blank" class="news-link">美国财长贝森特：美联储“应当”重新校准利率。 （我）的确认为美联储理事提名人Miran能（获得国会参议院全体表决支持并）及时参与9月17日开幕的FOMC货币政策会议。 我在华尔街日报专栏撰文并非新版美联储理事会的（货币政策方向）蓝图，而是评估美联储独立性的蓝图。 美联储理事Lisa Cook还不曾表明自己没有涉嫌抵押贷款欺诈。</a> [12]</div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">iphone ipad mac ios 手机 华为 OPPO VIVO 一加</td>
+                <td class="count">1</td>
+                <td class="percentage">4.17%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻] <a href="https://wallstreetcn.com/articles/3755262" target="_blank" class="news-link">苹果发布A19芯片搭载iPhone 17，史上最薄iPhone起售999美元，Pro八年来首次涨价</a> [8] <font color='grey'>- 05时21分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">车祸 开车+事故 警示录 警示 小明 背锅 骑车 汽车 碰撞 撞</td>
+                <td class="count">1</td>
+                <td class="percentage">4.17%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街] <a href="https://wallstreetcn.com/livenews/2971163" target="_blank" class="news-link">周二（9月9日），彭博电动汽车价格回报指数跌0.15%，报3109.39点。 美国雅宝收跌11%，创4月8日以来最差单日表现。</a> [15]</div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
