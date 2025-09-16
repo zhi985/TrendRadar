@@ -1,0 +1,103 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 23</p><p>生成时间: 2025-09-17 06:22:13</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">DeepSeek chatgpt ai 人工智能</td>
+                <td class="count">4</td>
+                <td class="percentage">17.39%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街] <a href="https://wallstreetcn.com/livenews/2974899" target="_blank" class="news-link">谷歌大模型Gemini超越OpenAI的ChatGPT，问鼎苹果公司应用商店APP Store</a> [10] <font color='grey'>- 06时22分</font></div><br><div class='new-title'>🆕 [华尔街] <a href="https://wallstreetcn.com/livenews/2974898" target="_blank" class="news-link">OpenAI将面向青少年用户群推出具有家长控制权限的ChatGPT。 当前，该公司面临关于未成年人安全的审查。</a> [11]</div><br><div class='new-title'>🆕 [华尔街] <a href="https://wallstreetcn.com/livenews/2974893" target="_blank" class="news-link">英国政府：Salesforce宣布，到2030年将对英国业务追加投资20亿美元。 微软、英伟达、谷歌、OpenAI和CoreWeave等美国科技企业承诺共计投资310亿英镑（约合423亿美元），用于提升数据中心、计算机芯片在内英国的人工智能（AI）基础设施和尖端技术。</a> [15]</div><br><div class='new-title'>🆕 [华尔街] <a href="https://wallstreetcn.com/livenews/2974892" target="_blank" class="news-link">微软和OpenAI加入美国科技巨头们对英国投资423亿美元的计划。 此外，英伟达、谷歌等也将在英国加大AI投资。</a> [16]</div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">iphone ipad mac ios 手机 华为 OPPO VIVO 一加</td>
+                <td class="count">1</td>
+                <td class="percentage">4.35%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街] <a href="https://wallstreetcn.com/livenews/2974894" target="_blank" class="news-link">微软CEO Satya Nadella将在美国总统特朗普的英国行程中陪同。（Axios）</a> [14] <font color='grey'>- 06时22分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">财富 房地产 房产 土地财政 土地 改革 发展</td>
+                <td class="count">1</td>
+                <td class="percentage">4.35%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街] <a href="https://wallstreetcn.com/livenews/2974910" target="_blank" class="news-link">“投江苏，赢未来”私募股权投资高质量发展推进会在苏州举行</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 06时22分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">车祸 开车+事故 警示录 警示 小明 背锅 骑车 汽车 碰撞 撞</td>
+                <td class="count">1</td>
+                <td class="percentage">4.35%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街] <a href="https://wallstreetcn.com/livenews/2974911" target="_blank" class="news-link">奇瑞汽车申请通过香港IPO发行2.974亿股股票。 该公司股票发行价指导区间为每股27.75-30.75港元。 预计股票将在9月23日定价。 预计股票将从9月25日开始交易。</a> <font color='red'><strong>[2]</strong></font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
