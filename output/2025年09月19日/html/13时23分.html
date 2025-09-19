@@ -1,0 +1,87 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 60</p><p>生成时间: 2025-09-19 13:23:54</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">iphone ipad mac ios 手机 华为 OPPO VIVO 一加</td>
+                <td class="count">8</td>
+                <td class="percentage">13.33%</td>
+                <td class="titles"><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1160458" target="_blank" class="news-link">iOS 快捷指令：快速添加水印-给摄影懒人的小礼物</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 13时23分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=iPhone17Pro%E8%A2%AB%E9%BB%84%E7%89%9B%E6%8B%92%E6%94%B6%EF%BC%9A%E8%B4%A7%E5%A4%AA%E5%A4%9A%E4%BA%86" target="_blank" class="news-link">iPhone17Pro被黄牛拒收：货太多了</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 13时23分</font></div><br><div class='new-title'>🆕 [华尔街] <a href="https://wallstreetcn.com/livenews/2976504" target="_blank" class="news-link">京东：iPhone 17以旧换新销量是去年同期4倍</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 13时23分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7550658736629645351/" target="_blank" class="news-link">曝iPhone 17 Pro系列本有黑色</a> [14] <font color='grey'>- 13时23分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://m.weibo.cn/search?containerid=100103type%3D1%26t%3D10%26q%3D%23iPhone17Pro%E7%BA%BF%E4%B8%8B%E5%B1%95%E5%87%BA%E7%9C%9F%E6%9C%BA%E5%B7%B2%E6%BB%A1%E8%BA%AB%E5%88%92%E7%97%95%23&amp;stream_entry_id=31&amp;isnewpage=1&amp;extparam=seat%3D1%26band_rank%3D16%26flag%3D1%26filter_type%3Drealtimehot%26c_type%3D31%26pos%3D17%26cate%3D5001%26dgr%3D0%26q%3D%2523iPhone17Pro%25E7%25BA%25BF%25E4%25B8%258B%25E5%25B1%2595%25E5%2587%25BA%25E7%259C%259F%25E6%259C%25BA%25E5%25B7%25B2%25E6%25BB%25A1%25E8%25BA%25AB%25E5%2588%2592%25E7%2597%2595%2523%26stream_entry_id%3D31%26realpos%3D16%26lcate%3D5001%26display_time%3D1758259100%26pre_seqid%3D17582591001170234944625" target="_blank" class="news-link">iPhone17Pro线下展出真机已满身划痕</a> [16] <font color='grey'>- 13时23分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7551332394659807283/" target="_blank" class="news-link">杭州数码市场里新手机壳挂满墙</a> [24] <font color='grey'>- 13时23分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://m.weibo.cn/search?containerid=100103type%3D1%26t%3D10%26q%3D%23iPhone17Pro%E5%88%92%E7%97%95%23&amp;stream_entry_id=31&amp;isnewpage=1&amp;extparam=seat%3D1%26band_rank%3D26%26flag%3D1%26filter_type%3Drealtimehot%26c_type%3D31%26pos%3D27%26cate%3D5001%26dgr%3D0%26q%3D%2523iPhone17Pro%25E5%2588%2592%25E7%2597%2595%2523%26stream_entry_id%3D31%26realpos%3D26%26lcate%3D5001%26display_time%3D1758259100%26pre_seqid%3D17582591001170234944625" target="_blank" class="news-link">iPhone17Pro划痕</a> [26] <font color='grey'>- 13时23分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7550763694306885686/" target="_blank" class="news-link">iPhone 17系列被曝存在相机漏洞</a> [29] <font color='grey'>- 13时23分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">DeepSeek chatgpt ai 人工智能</td>
+                <td class="count">1</td>
+                <td class="percentage">1.67%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街] <a href="https://wallstreetcn.com/livenews/2976508" target="_blank" class="news-link">腾讯推出专业级AI 3D工作台混元3D Studio</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 13时23分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
