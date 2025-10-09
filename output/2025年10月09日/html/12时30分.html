@@ -1,0 +1,111 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 99</p><p>生成时间: 2025-10-09 12:30:03</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">DeepSeek chatgpt ai 人工智能</td>
+                <td class="count">3</td>
+                <td class="percentage">3.03%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻] <a href="https://wallstreetcn.com/articles/3756798" target="_blank" class="news-link">上游英伟达、台积电赚饱，下游高债务、低利润--AI产业链的现状</a> [10] <font color='grey'>- 12时30分</font></div><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2163825" target="_blank" class="news-link">前方高能？OpenAI CEO扬言：除英伟达、AMD外，还有更多大交易！</a> [13] <font color='grey'>- 12时30分</font></div><br><div class='new-title'>🆕 [参考消息] <a href="https://ckxxapp.ckxx.net/pages/2025/10/09/00470aef451f4065be31702ab8de63a7.html" target="_blank" class="news-link">美国加州出台首部AI监管法，有人欢呼有人忧</a> [13] <font color='grey'>- 12时30分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">iphone ipad mac ios 手机 华为 OPPO VIVO 一加</td>
+                <td class="count">1</td>
+                <td class="percentage">1.01%</td>
+                <td class="titles"><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E5%A5%B3%E7%94%9F%E6%89%BE%E5%9B%9E%E6%89%8B%E6%9C%BA%E5%90%8E%E5%8F%91%E7%8E%B0%E7%9B%B8%E5%86%8C%E5%A4%9A%E4%BA%86%E6%AE%B5%E8%A7%86%E9%A2%91" target="_blank" class="news-link">女生找回手机后发现相册多了段视频</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 12时30分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">合肥 浙江 舟山 安徽 天长 滁州 安庆 桐城 北京 中央 经济</td>
+                <td class="count">1</td>
+                <td class="percentage">1.01%</td>
+                <td class="titles"><div class='new-title'>🆕 [微博] <a href="https://m.weibo.cn/search?containerid=100103type%3D1%26t%3D10%26q%3D%23%E5%8C%97%E4%BA%AC%E5%86%B7%E5%86%B7%E5%86%B7%E5%86%B7%E5%86%B7%23&amp;stream_entry_id=31&amp;isnewpage=1&amp;extparam=seat%3D1%26filter_type%3Drealtimehot%26c_type%3D31%26dgr%3D0%26band_rank%3D18%26q%3D%2523%25E5%258C%2597%25E4%25BA%25AC%25E5%2586%25B7%25E5%2586%25B7%25E5%2586%25B7%25E5%2586%25B7%25E5%2586%25B7%2523%26stream_entry_id%3D31%26flag%3D1%26realpos%3D18%26lcate%3D5001%26cate%3D5001%26pos%3D19%26display_time%3D1759984157%26pre_seqid%3D17599841573920234919849" target="_blank" class="news-link">北京冷冷冷冷冷</a> [18] <font color='grey'>- 12时30分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">车祸 开车+事故 警示录 警示 小明 背锅 骑车 汽车 碰撞 撞</td>
+                <td class="count">1</td>
+                <td class="percentage">1.01%</td>
+                <td class="titles"><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/1959338424008935026" target="_blank" class="news-link">如何评价杜鲁门号航母与货船相撞后八个月未修复，而是选择用巨幅海报遮挡?</a> [7] <font color='grey'>- 12时30分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>5</td>
+                <td class="word">社保 养老 医疗 生育 失业 工伤 保险 缴费</td>
+                <td class="count">1</td>
+                <td class="percentage">1.01%</td>
+                <td class="titles"><div class='new-title'>🆕 [参考消息] <a href="https://ckxxapp.ckxx.net/pages/2025/10/09/6af8be59ad1d4a70b8fa3a3a844ad219.html" target="_blank" class="news-link">IMF警告西方须提高养老金领取年龄</a> [11] <font color='grey'>- 12时30分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
