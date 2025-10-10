@@ -1,0 +1,111 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 101</p><p>生成时间: 2025-10-10 20:52:15</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">DeepSeek chatgpt ai 人工智能</td>
+                <td class="count">3</td>
+                <td class="percentage">2.97%</td>
+                <td class="titles"><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1164281" target="_blank" class="news-link">StillRoot：让 AI 对话沉淀为笔记的第二大脑，求 10 人内测反馈</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 20时52分</font></div><br><div class='new-title'>🆕 [华尔街] <a href="https://wallstreetcn.com/livenews/2985760" target="_blank" class="news-link">两部门：落实人工智能大模型“辅助型”定位，防范模型“幻觉”等风险</a> [12] <font color='grey'>- 20时52分</font></div><br><div class='new-title'>🆕 [华尔街] <a href="https://wallstreetcn.com/livenews/2985758" target="_blank" class="news-link">两部门：以统筹集约的方式开展政务领域人工智能大模型部署</a> [13] <font color='grey'>- 20时52分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">合肥 浙江 舟山 安徽 天长 滁州 安庆 桐城 北京 中央 经济</td>
+                <td class="count">3</td>
+                <td class="percentage">2.97%</td>
+                <td class="titles"><div class='new-title'>🆕 [bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=%E9%87%8D%E5%BA%86%E7%8B%BC%E9%98%9F%20%E5%8C%97%E4%BA%ACJDG" target="_blank" class="news-link">KPL重庆狼队 北京JDG</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 20时52分</font></div><br><div class='new-title'>🆕 [华尔街] <a href="https://wallstreetcn.com/livenews/2985765" target="_blank" class="news-link">美国政府停摆仍看不到结束的曙光 初步经济影响逐渐显现</a> [8] <font color='grey'>- 20时52分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7559195963148075054/" target="_blank" class="news-link">安徽3岁半“奶瓶小演员”走红</a> [14] <font color='grey'>- 20时52分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">医保 医疗 社保 基金 公积金 政策 改革</td>
+                <td class="count">3</td>
+                <td class="percentage">2.97%</td>
+                <td class="titles"><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7559457346825715775/" target="_blank" class="news-link">官方驳斥医保可报销药品仅占2%</a> [11] <font color='grey'>- 20时52分</font></div><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2165745" target="_blank" class="news-link">3900点一日游？基金公司火速解读</a> [11] <font color='grey'>- 20时52分</font></div><br><div class='new-title'>🆕 [华尔街] <a href="https://wallstreetcn.com/livenews/2985751" target="_blank" class="news-link">中国联通：中国国有企业结构调整基金拟减持不超过1.2%股份。</a> [17] <font color='grey'>- 20时52分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">iphone ipad mac ios 手机 华为 OPPO VIVO 一加</td>
+                <td class="count">1</td>
+                <td class="percentage">0.99%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街] <a href="https://wallstreetcn.com/livenews/2985727" target="_blank" class="news-link">美股稀土和关键矿产类股盘前上涨，Critical Metals涨10.67%，MP Materials涨2.97%，Energy Fuels涨3.50%，Ramaco Resources涨1.60%，USA Rare Earth涨7.82%，US Antimony涨4.32%，NioCorp Developments涨2.03%。</a> [29] <font color='grey'>- 20时52分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>5</td>
+                <td class="word">社保 养老 医疗 生育 失业 工伤 保险 缴费</td>
+                <td class="count">1</td>
+                <td class="percentage">0.99%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街] <a href="https://wallstreetcn.com/livenews/2985773" target="_blank" class="news-link">加拿大9月失业率 7.1%，预期 7.2%，前值 7.1%。</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 20时52分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
