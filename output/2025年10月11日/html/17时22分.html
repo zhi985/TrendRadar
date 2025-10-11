@@ -1,0 +1,103 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 54</p><p>生成时间: 2025-10-11 17:22:22</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">合肥 浙江 舟山 安徽 天长 滁州 安庆 桐城 北京 中央 经济</td>
+                <td class="count">3</td>
+                <td class="percentage">5.56%</td>
+                <td class="titles"><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7559878348814499849/" target="_blank" class="news-link">从用电量看经济增长新动能</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 17时22分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E4%B8%A4%E4%B8%AA%E4%B8%87%E4%BA%BF%E5%BA%A6+%E6%8A%98%E5%B0%84%E7%BB%8F%E6%B5%8E%E5%A2%9E%E9%95%BF%E6%96%B0%E5%8A%A8%E8%83%BD" target="_blank" class="news-link">两个万亿度 折射经济增长新动能</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 17时22分</font></div><br><div class='new-title'>🆕 [华尔街] <a href="https://wallstreetcn.com/livenews/2986096" target="_blank" class="news-link">李强结束出访回到北京</a> [8] <font color='grey'>- 17时22分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">车祸 开车+事故 警示录 警示 小明 背锅 骑车 汽车 碰撞 撞</td>
+                <td class="count">2</td>
+                <td class="percentage">3.7%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街] <a href="https://wallstreetcn.com/livenews/2986102" target="_blank" class="news-link">47岁冯长军，升任东风汽车总经理</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 17时22分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7559375761489264667/" target="_blank" class="news-link">男子车祸身亡7年后家属才得知</a> [20] <font color='grey'>- 17时22分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">DeepSeek chatgpt ai 人工智能</td>
+                <td class="count">1</td>
+                <td class="percentage">1.85%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街] <a href="https://wallstreetcn.com/livenews/2986097" target="_blank" class="news-link">中国气象局：人工智能、大数据、量子技术等前沿技术与气象融合应用不断深入</a> [7] <font color='grey'>- 17时22分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">iphone ipad mac ios 手机 华为 OPPO VIVO 一加</td>
+                <td class="count">1</td>
+                <td class="percentage">1.85%</td>
+                <td class="titles"><div class='new-title'>🆕 [微博] <a href="https://m.weibo.cn/search?containerid=100103type%3D1%26t%3D10%26q%3D%23%E5%8D%8E%E5%B0%8Fv%E8%B0%81%E5%B0%86%E9%A2%86%E8%B7%91%E4%B8%AD%E5%9B%BD%E6%89%8B%E6%9C%BA%E5%B8%82%E5%9C%BA%23&amp;stream_entry_id=31&amp;isnewpage=1&amp;extparam=seat%3D1%26lcate%3D5001%26q%3D%2523%25E5%258D%258E%25E5%25B0%258Fv%25E8%25B0%2581%25E5%25B0%2586%25E9%25A2%2586%25E8%25B7%2591%25E4%25B8%25AD%25E5%259B%25BD%25E6%2589%258B%25E6%259C%25BA%25E5%25B8%2582%25E5%259C%25BA%2523%26c_type%3D31%26filter_type%3Drealtimehot%26cate%3D5001%26flag%3D1%26realpos%3D19%26pos%3D19%26stream_entry_id%3D31%26dgr%3D0%26band_rank%3D19%26display_time%3D1760174363%26pre_seqid%3D17601743630330380123795" target="_blank" class="news-link">华小v谁将领跑中国手机市场</a> [19] <font color='grey'>- 17时22分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
