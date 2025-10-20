@@ -1,0 +1,103 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 53</p><p>生成时间: 2025-10-20 15:26:30</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">DeepSeek chatgpt ai 人工智能</td>
+                <td class="count">3</td>
+                <td class="percentage">5.66%</td>
+                <td class="titles"><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1167000" target="_blank" class="news-link">从 Vibe Coding 到 Spec-Driven Development（SDD）——为什么工程级 AI 编程必须以规范为先</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 15时26分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1166993" target="_blank" class="news-link">最近试了下小智这类带语音交互的硬件，发现硬件本身不难，真正对 coder 有趣的是接上自己的 AI Agent 或后端逻辑</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 15时26分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E7%BE%8E%E5%9B%BD%E5%A5%B3%E5%AD%90AI%E7%94%9F%E6%88%90%E5%8F%B7%E7%A0%81%E4%B8%AD10%E4%B8%87%E7%BE%8E%E5%85%83%E5%BD%A9%E7%A5%A8" target="_blank" class="news-link">美国女子AI生成号码中10万美元彩票</a> [28] <font color='grey'>- 15时26分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">iphone ipad mac ios 手机 华为 OPPO VIVO 一加</td>
+                <td class="count">3</td>
+                <td class="percentage">5.66%</td>
+                <td class="titles"><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1167007" target="_blank" class="news-link">[Mac 应用]一键使用 VS Code 打开当前目录， VS Code now</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 15时26分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://m.weibo.cn/search?containerid=100103type%3D1%26t%3D10%26q%3D%E9%BB%84%E7%A3%8A%E6%91%94%E7%9A%84%E6%98%AF%E6%89%8B%E6%9C%BA%E7%95%99%E7%9A%84%E6%98%AF%E8%A7%82%E5%89%A7%E4%BD%93%E9%AA%8C&amp;stream_entry_id=31&amp;isnewpage=1&amp;extparam=seat%3D1%26c_type%3D31%26pos%3D22%26dgr%3D0%26cate%3D5001%26realpos%3D21%26stream_entry_id%3D31%26flag%3D1%26band_rank%3D21%26lcate%3D5001%26q%3D%25E9%25BB%2584%25E7%25A3%258A%25E6%2591%2594%25E7%259A%2584%25E6%2598%25AF%25E6%2589%258B%25E6%259C%25BA%25E7%2595%2599%25E7%259A%2584%25E6%2598%25AF%25E8%25A7%2582%25E5%2589%25A7%25E4%25BD%2593%25E9%25AA%258C%26filter_type%3Drealtimehot%26display_time%3D1760945105%26pre_seqid%3D17609451052420272800496" target="_blank" class="news-link">黄磊摔的是手机留的是观剧体验</a> [21] <font color='grey'>- 15时26分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E5%B9%B3%E5%8F%B0%E5%9B%9E%E5%BA%94%E9%AA%91%E6%89%8B%E5%8F%96%E8%B5%B0%E8%8B%B9%E6%9E%9C%E6%89%8B%E6%9C%BA%E5%90%8E%E5%A4%B1%E8%81%94" target="_blank" class="news-link">平台回应骑手取走苹果手机后失联</a> [25] <font color='grey'>- 15时26分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">合肥 浙江 舟山 安徽 天长 滁州 安庆 桐城 北京 中央 经济</td>
+                <td class="count">1</td>
+                <td class="percentage">1.89%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街] <a href="https://wallstreetcn.com/livenews/2990474" target="_blank" class="news-link">A股海洋经济概念尾盘异动，迪威尔涨超10%，厦门港务、海兰信、巨力索具、深水海纳、邵阳液压等纷纷拉升。</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 15时26分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">医保 医疗 社保 基金 公积金 政策 改革</td>
+                <td class="count">1</td>
+                <td class="percentage">1.89%</td>
+                <td class="titles"><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7563192486479269386/" target="_blank" class="news-link">特朗普政府为何悄悄放松关税政策</a> [24] <font color='grey'>- 15时26分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
