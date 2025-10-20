@@ -1,0 +1,111 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 60</p><p>生成时间: 2025-10-20 12:31:30</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">合肥 浙江 舟山 安徽 天长 滁州 安庆 桐城 北京 中央 经济</td>
+                <td class="count">4</td>
+                <td class="percentage">6.67%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街] <a href="https://wallstreetcn.com/livenews/2990423" target="_blank" class="news-link">前三季度浙江出口首破三万亿</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 12时31分</font></div><br><div class='new-title'>🆕 [凤凰网] <a href="https://news.ifeng.com/c/8nbIr0xE6pi" target="_blank" class="news-link">荷兰经济事务部大臣透露“将与中方会面”，但仍在狡辩</a> [6] <font color='grey'>- 12时31分</font></div><br><div class='new-title'>🆕 [华尔街] <a href="https://wallstreetcn.com/livenews/2990417" target="_blank" class="news-link">日本央行审议委员高田创：我们需要在假设日本央行物价目标已经实现的前提下讨论货币政策。 美联储恢复降息本可能会限制日本央行的政策灵活性，但这次情况并非如此，因为美联储降息是出于风险管理的角度，而非担心经济衰退。 日本正出现通胀的“第二轮效应”可能扩大的条件。 从经济即将迎来“真正的黎明”的角度来看，日本央行必须在实施货币政策时，分几个阶段逐步“转换档位”。</a> [8]</div><br><div class='new-title'>🆕 [华尔街] <a href="https://wallstreetcn.com/livenews/2990413" target="_blank" class="news-link">日本央行审议委员高田创：整体而言，海外经济正温和增长。 目前来看，关税对美国经济的影响可能有限，包括对家庭和企业信心的影响；美国经济不太可能遭受急剧下滑。 10 月份的短观调查以及日本央行地区分行行长会议的报告均显示，日本经济没有因关税而出现重大放缓。 我之前尤其担心美国政策带来的市场大幅波动风险，但美国经济避免了衰退，日元走弱而非走强。 此前可能抑制日本增长的海外贸易政策因素并未对日本经济造成太大压力。</a> [11]</div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">医保 医疗 社保 基金 公积金 政策 改革</td>
+                <td class="count">3</td>
+                <td class="percentage">5.0%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街] <a href="https://wallstreetcn.com/livenews/2990419" target="_blank" class="news-link">国开新型政策性金融工具投放近1900亿元</a> [6 - 16] <font color='grey'>- 12时31分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E4%B8%80%E9%A1%B9%E6%94%B9%E9%9D%A9%E5%B8%A6%E6%9D%A5%E5%B0%B1%E5%8C%BB%E6%96%B0%E5%8F%98%E5%8C%96" target="_blank" class="news-link">一项改革带来就医新变化</a> [9] <font color='grey'>- 12时31分</font></div><br><div class='new-title'>🆕 [华尔街] <a href="https://wallstreetcn.com/livenews/2990410" target="_blank" class="news-link">日本央行审议委员高田创：现在是提高政策利率的好时机。 最初对关税影响的担忧已经减弱。 必须警惕日本通胀可能超过预期的风险。 我认为日本央行必须在通胀目标已大致实现的假设下与市场进行沟通。 我认为日本央行必须对总体通胀已超过2%达三年半之久这一事实做出反应。 即使实现通胀目标在望，当前的货币政策仍保持宽松。 日本央行的缩减购债（Taper）过程必须谨慎，需要时间。 日本就业和收入状况改善支撑了消费，这一观点未变。 日本已大致实现日本央行的物价目标。</a> [12]</div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">医学 医疗 中央 反腐</td>
+                <td class="count">1</td>
+                <td class="percentage">1.67%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街] <a href="https://wallstreetcn.com/livenews/2990415" target="_blank" class="news-link">中国共产党第二十届中央委员会第四次全体会议在北京开始举行</a> [10] <font color='grey'>- 12时31分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">财富 房地产 房产 土地财政 土地 改革 发展</td>
+                <td class="count">1</td>
+                <td class="percentage">1.67%</td>
+                <td class="titles"><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7562917156875517988/" target="_blank" class="news-link">这5年 中国为全球发展贡献了什么</a> [9] <font color='grey'>- 12时31分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>5</td>
+                <td class="word">车祸 开车+事故 警示录 警示 小明 背锅 骑车 汽车 碰撞 撞</td>
+                <td class="count">1</td>
+                <td class="percentage">1.67%</td>
+                <td class="titles"><div class='new-title'>🆕 [凤凰网] <a href="https://news.ifeng.com/c/8nbOCHQM3II" target="_blank" class="news-link">美客机在万米高空遭不明物体撞击，挡风玻璃碎裂飞行员受伤(图)</a> [10] <font color='grey'>- 12时31分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
