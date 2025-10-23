@@ -1,0 +1,103 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 65</p><p>生成时间: 2025-10-23 13:25:43</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">车祸 开车+事故 警示录 警示 小明 背锅 骑车 汽车 碰撞 撞</td>
+                <td class="count">3</td>
+                <td class="percentage">4.62%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街] <a href="https://wallstreetcn.com/livenews/2992324" target="_blank" class="news-link">全球最大吨位 东风汽车万吨级压铸工厂调试生产</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 13时25分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://m.weibo.cn/search?containerid=100103type%3D1%26t%3D10%26q%3D%23%E5%A4%A7%E4%BE%A6%E6%8E%A2%E5%AF%B9%E6%92%9E%E5%AD%A3%E6%B0%B4%E9%BE%99%E5%90%9F%E4%B8%93%E5%9C%BA%23&amp;stream_entry_id=31&amp;isnewpage=1&amp;extparam=seat%3D1%26stream_entry_id%3D31%26lcate%3D5001%26filter_type%3Drealtimehot%26band_rank%3D8%26c_type%3D31%26realpos%3D8%26q%3D%2523%25E5%25A4%25A7%25E4%25BE%25A6%25E6%258E%25A2%25E5%25AF%25B9%25E6%2592%259E%25E5%25AD%25A3%25E6%25B0%25B4%25E9%25BE%2599%25E5%2590%259F%25E4%25B8%2593%25E5%259C%25BA%2523%26cate%3D5001%26pos%3D9%26flag%3D1%26dgr%3D0%26display_time%3D1761196988%26pre_seqid%3D176119698817003683155149" target="_blank" class="news-link">大侦探对撞季水龙吟专场</a> [8] <font color='grey'>- 13时25分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7564212577665581095/" target="_blank" class="news-link">20岁巴西前锋骑摩托车撞上奶牛身亡</a> [19] <font color='grey'>- 13时25分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">DeepSeek chatgpt ai 人工智能</td>
+                <td class="count">1</td>
+                <td class="percentage">1.54%</td>
+                <td class="titles"><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1167847" target="_blank" class="news-link">用 AI 辅助我创作科普， Gemini 表现的不错</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 13时25分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">iphone ipad mac ios 手机 华为 OPPO VIVO 一加</td>
+                <td class="count">1</td>
+                <td class="percentage">1.54%</td>
+                <td class="titles"><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7563553763076784179/" target="_blank" class="news-link">华为新机发布计划曝光</a> [13] <font color='grey'>- 13时25分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">财富 房地产 房产 土地财政 土地 改革 发展</td>
+                <td class="count">1</td>
+                <td class="percentage">1.54%</td>
+                <td class="titles"><div class='new-title'>🆕 [澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_31824325" target="_blank" class="news-link">河南登封拟对一镇征收房产税引发热议，个人住房是否征税、该征多少税？</a> [18] <font color='grey'>- 13时25分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
