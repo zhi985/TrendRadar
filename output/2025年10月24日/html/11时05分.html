@@ -1,0 +1,135 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 109</p><p>生成时间: 2025-10-24 11:05:40</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">医学 医疗 中央 反腐</td>
+                <td class="count">12</td>
+                <td class="percentage">11.01%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街] <a href="https://wallstreetcn.com/livenews/2992970" target="_blank" class="news-link">中共中央新闻发布会丨“十五五”时期 既重视“中国经济”也重视“中国人经济”</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 11时05分</font></div><br><div class='new-title'>🆕 [华尔街] <a href="https://wallstreetcn.com/livenews/2992969" target="_blank" class="news-link">中共中央新闻发布会丨《建议》从四方面部署“十五五”时期对外开放工作</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 11时05分</font></div><br><div class='new-title'>🆕 [华尔街] <a href="https://wallstreetcn.com/livenews/2992961" target="_blank" class="news-link">中共中央新闻发布会丨《建议》对加快高水平科技自立自强作出重要部署</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 11时05分</font></div><br><div class='new-title'>🆕 [华尔街] <a href="https://wallstreetcn.com/livenews/2992959" target="_blank" class="news-link">【中共中央新闻发布会丨《建议》部署实施一批国家重大科技任务】中共中央今天（24日）上午举行新闻发布会，介绍和解读党的二十届四中全会精神。科技部党组书记、部长阴和俊介绍，《中共中央关于制定国民经济和社会发展第十五个五年规划的建议》部署，加强原始创新和关键核心技术攻关。完善新型举国体制，全链条推动集成电路、工业母机、高端仪器等重点领域关键核心技术攻关取得决定性突破。突出国家战略需求，部署实施一批国家重大科技任务。加强基础研究战略性、前瞻性、体系化布局，加大长期稳定支持。强化科学研究、技术开发原始创新导向，产出更多标志性原创成果。（央视新闻）</a> [6] <font color='grey'>- 11时05分</font></div><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2179242" target="_blank" class="news-link">中共中央新闻发布会：未来10年将再造一个中国高技术产业</a> [8] <font color='grey'>- 11时05分</font></div><br><div class='new-title'>🆕 [华尔街] <a href="https://wallstreetcn.com/livenews/2992946" target="_blank" class="news-link">中共中央新闻发布会丨综合整治“内卷式”竞争 将有力有效破除各种市场障碍</a> [16] <font color='grey'>- 11时05分</font></div><br><div class='new-title'>🆕 [华尔街] <a href="https://wallstreetcn.com/livenews/2992945" target="_blank" class="news-link">中共中央新闻发布会丨强大国内市场是中国式现代化的战略依托</a> [17] <font color='grey'>- 11时05分</font></div><br><div class='new-title'>🆕 [华尔街] <a href="https://wallstreetcn.com/livenews/2992943" target="_blank" class="news-link">中共中央新闻发布会丨未来10年将再造一个中国高技术产业</a> [18] <font color='grey'>- 11时05分</font></div><br><div class='new-title'>🆕 [华尔街] <a href="https://wallstreetcn.com/livenews/2992937" target="_blank" class="news-link">中共中央新闻发布会：农业农村现代化是需要优先补上的最大短版</a> [20] <font color='grey'>- 11时05分</font></div><br><div class='new-title'>🆕 [华尔街] <a href="https://wallstreetcn.com/livenews/2992936" target="_blank" class="news-link">中共中央新闻发布会丨农业农村现代化是需要优先补上的最大短版</a> [21] <font color='grey'>- 11时05分</font></div><br><div class='new-title'>🆕 [华尔街] <a href="https://wallstreetcn.com/livenews/2992933" target="_blank" class="news-link">中共中央新闻发布会丨《建议》明确“十五五”时期我国经济社会发展指导方针</a> [22] <font color='grey'>- 11时05分</font></div><br><div class='new-title'>🆕 [华尔街] <a href="https://wallstreetcn.com/livenews/2992920" target="_blank" class="news-link">中共中央新闻发布会丨“十五五”是夯实基础、全面发力关键时期</a> [30] <font color='grey'>- 11时05分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">iphone ipad mac ios 手机 华为 OPPO VIVO 一加</td>
+                <td class="count">3</td>
+                <td class="percentage">2.75%</td>
+                <td class="titles"><div class='new-title'>🆕 [微博] <a href="https://m.weibo.cn/search?containerid=100103type%3D1%26t%3D10%26q%3D%23%E4%B8%A5%E7%A6%81%E5%B0%86%E6%89%8B%E6%9C%BA%E7%AD%89%E7%94%B5%E5%AD%90%E4%BA%A7%E5%93%81%E5%B8%A6%E8%BF%9B%E8%AF%BE%E5%A0%82%23&amp;stream_entry_id=31&amp;isnewpage=1&amp;extparam=seat%3D1%26q%3D%2523%25E4%25B8%25A5%25E7%25A6%2581%25E5%25B0%2586%25E6%2589%258B%25E6%259C%25BA%25E7%25AD%2589%25E7%2594%25B5%25E5%25AD%2590%25E4%25BA%25A7%25E5%2593%2581%25E5%25B8%25A6%25E8%25BF%259B%25E8%25AF%25BE%25E5%25A0%2582%2523%26dgr%3D0%26band_rank%3D4%26stream_entry_id%3D31%26realpos%3D4%26flag%3D1%26c_type%3D31%26lcate%3D5001%26pos%3D4%26cate%3D5001%26filter_type%3Drealtimehot%26display_time%3D1761275108%26pre_seqid%3D1761275108109032827774" target="_blank" class="news-link">严禁将手机等电子产品带进课堂</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 11时05分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1168061" target="_blank" class="news-link">🔥🔥🔥也许能有这样一款手机🔥🔥🔥</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 11时05分</font></div><br><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/1964414043113644757" target="_blank" class="news-link">如何评价卢伟冰所说的「未来手机分成两类，有自研芯片和没自研芯片」？</a> [18] <font color='grey'>- 11时05分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">财富 房地产 房产 土地财政 土地 改革 发展</td>
+                <td class="count">2</td>
+                <td class="percentage">1.83%</td>
+                <td class="titles"><div class='new-title'>🆕 [参考消息] <a href="https://ckxxapp.ckxx.net/pages/2025/10/24/c3ad3ba3f9624ef48ce049650ac3788f.html" target="_blank" class="news-link">迪亚斯-卡内尔：中国为古巴发展提供参照范例</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 11时05分</font></div><br><div class='new-title'>🆕 [华尔街] <a href="https://wallstreetcn.com/livenews/2992931" target="_blank" class="news-link">“十五五”时期我国发展环境总体判断：我国发展处于战略机遇和风险挑战并存、不确定难预料因素增多的时期。（央视新闻）</a> [24] <font color='grey'>- 11时05分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">DeepSeek chatgpt ai 人工智能</td>
+                <td class="count">1</td>
+                <td class="percentage">0.92%</td>
+                <td class="titles"><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1168070" target="_blank" class="news-link">焦虑！下周回来公司要求开 ai 分享会</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 11时05分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>5</td>
+                <td class="word">合肥 浙江 舟山 安徽 天长 滁州 安庆 桐城 北京 中央 经济</td>
+                <td class="count">1</td>
+                <td class="percentage">0.92%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街] <a href="https://wallstreetcn.com/livenews/2992942" target="_blank" class="news-link">韩文秀：《建议》明确“十五五”时期经济社会发展主要目标</a> [19] <font color='grey'>- 11时05分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>6</td>
+                <td class="word">医保 医疗 社保 基金 公积金 政策 改革</td>
+                <td class="count">1</td>
+                <td class="percentage">0.92%</td>
+                <td class="titles"><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7564582522550488617/" target="_blank" class="news-link">二十届四中全会定调宏观政策</a> [29] <font color='grey'>- 11时05分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>7</td>
+                <td class="word">车祸 开车+事故 警示录 警示 小明 背锅 骑车 汽车 碰撞 撞</td>
+                <td class="count">1</td>
+                <td class="percentage">0.92%</td>
+                <td class="titles"><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7563555610571620402/" target="_blank" class="news-link">1.6万的LV大衣撞衫长沙校服</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 11时05分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>8</td>
+                <td class="word">社保 养老 医疗 生育 失业 工伤 保险 缴费</td>
+                <td class="count">1</td>
+                <td class="percentage">0.92%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街] <a href="https://wallstreetcn.com/livenews/2992957" target="_blank" class="news-link">新研究揭示生育哺乳降低乳腺癌风险的机制</a> [7] <font color='grey'>- 11时05分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
