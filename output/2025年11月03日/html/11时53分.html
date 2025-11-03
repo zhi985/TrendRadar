@@ -1,0 +1,111 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 120</p><p>生成时间: 2025-11-03 11:53:35</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">医保 医疗 社保 基金 公积金 政策 改革</td>
+                <td class="count">5</td>
+                <td class="percentage">4.17%</td>
+                <td class="titles"><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2188905" target="_blank" class="news-link">Q3最受机构青睐科创板公司名单出炉！930家机构持股寒武纪 大基金成沪硅产业、拓荆科技第一大流通股东</a> [9] <font color='grey'>- 11时53分</font></div><br><div class='new-title'>🆕 [华尔街] <a href="https://wallstreetcn.com/livenews/2998319" target="_blank" class="news-link">国家发展改革委原党组成员、副主任徐宪平严重违纪违法被开除党籍</a> [10] <font color='grey'>- 11时53分</font></div><br><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/1967155206090397412" target="_blank" class="news-link">A 股原历史顶部吹哨人「宁泉资产」称自 10 月 30 日起，暂停旗下基金的新投资者首次申购申请，对此你怎么看？</a> [16] <font color='grey'>- 11时53分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E5%9B%BD%E5%AE%B6%E7%A7%BB%E6%B0%91%E7%AE%A1%E7%90%86%E5%B1%80%E5%8F%91%E5%B8%8310%E9%A1%B9%E9%87%8D%E7%A3%85%E6%94%BF%E7%AD%96" target="_blank" class="news-link">国家移民管理局发布10项重磅政策</a> [18] <font color='grey'>- 11时53分</font></div><br><div class='new-title'>🆕 [华尔街] <a href="https://wallstreetcn.com/livenews/2998283" target="_blank" class="news-link">事关港澳台人员往来、过境免签口岸扩容等10项重磅政策发布</a> [27] <font color='grey'>- 11时53分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">DeepSeek chatgpt ai 人工智能</td>
+                <td class="count">4</td>
+                <td class="percentage">3.33%</td>
+                <td class="titles"><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1170090" target="_blank" class="news-link">标题：在 AI 的帮助下，独立完成了我的第一个小项目</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 11时53分</font></div><br><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/1968223817403954668" target="_blank" class="news-link">马斯克称 5 年后不再有手机和 App，人类进入 AI 内容时代，如何看待这一观点？你认同吗？</a> [9] <font color='grey'>- 11时53分</font></div><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2189006" target="_blank" class="news-link">科技巨头财报揭露关键趋势？基金经理：AI投资巨浪将推动美股下一轮涨势！</a> [11] <font color='grey'>- 11时53分</font></div><br><div class='new-title'>🆕 [华尔街] <a href="https://wallstreetcn.com/livenews/2998305" target="_blank" class="news-link">工信部部长李乐成：加快推进人工智能赋能新型工业化</a> [17] <font color='grey'>- 11时53分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">合肥 浙江 舟山 安徽 天长 滁州 安庆 桐城 北京 中央 经济</td>
+                <td class="count">4</td>
+                <td class="percentage">3.33%</td>
+                <td class="titles"><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E5%BC%80%E6%94%BE%E4%B8%AD%E5%9B%BD%E4%B8%BA%E4%B8%96%E7%95%8C%E7%BB%8F%E6%B5%8E%E6%8F%90%E4%BE%9B%E2%80%9C%E7%A8%B3%E5%AE%9A%E9%94%9A%E2%80%9D" target="_blank" class="news-link">开放中国为世界经济提供“稳定锚”</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 11时53分</font></div><br><div class='new-title'>🆕 [华尔街] <a href="https://wallstreetcn.com/livenews/2998307" target="_blank" class="news-link">北京亦庄前三季度GDP同比增长10.8%</a> [15] <font color='grey'>- 11时53分</font></div><br><div class='new-title'>🆕 [华尔街] <a href="https://wallstreetcn.com/livenews/2998306" target="_blank" class="news-link">民营经济增加值已占湖北GDP 65.7%</a> [16] <font color='grey'>- 11时53分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7568313384057028614/" target="_blank" class="news-link">原北京市国税局局长吴新联被查</a> [18] <font color='grey'>- 11时53分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">财富 房地产 房产 土地财政 土地 改革 发展</td>
+                <td class="count">1</td>
+                <td class="percentage">0.83%</td>
+                <td class="titles"><div class='new-title'>🆕 [参考消息] <a href="https://ckxxapp.ckxx.net/pages/2025/11/03/973fb8f6dc0942dda7228b2db3f515dc.html" target="_blank" class="news-link">中国发展战略从规模扩张迈向优势锻造</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 11时53分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>5</td>
+                <td class="word">车祸 开车+事故 警示录 警示 小明 背锅 骑车 汽车 碰撞 撞</td>
+                <td class="count">1</td>
+                <td class="percentage">0.83%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街] <a href="https://wallstreetcn.com/livenews/2998336" target="_blank" class="news-link">汇天飞行汽车量产工厂首台“陆地航母”飞行器正式下线</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 11时53分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
