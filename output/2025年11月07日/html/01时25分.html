@@ -1,0 +1,111 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 35</p><p>生成时间: 2025-11-07 01:25:26</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">iphone ipad mac ios 手机 华为 OPPO VIVO 一加</td>
+                <td class="count">3</td>
+                <td class="percentage">8.57%</td>
+                <td class="titles"><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1171095" target="_blank" class="news-link">Cardinal: macOS 的快速文件搜索（已开源）</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 01时25分</font></div><br><div class='new-title'>🆕 [华尔街] <a href="https://wallstreetcn.com/livenews/3000676" target="_blank" class="news-link">美联储Hammack：预计2026年更快的经济增速将利好就业。</a> [6] <font color='grey'>- 01时25分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://m.weibo.cn/search?containerid=100103type%3D1%26t%3D10%26q%3D%23%E8%BF%AA%E5%8D%A1%E4%BE%AC%E5%9B%9E%E5%BA%94%E9%A1%BE%E5%AE%A2%E8%AF%AF%E8%AE%A4%E9%80%8F%E6%B0%94%E5%AD%94%E5%BC%84%E4%B8%A2%E6%89%8B%E6%9C%BA%23&amp;stream_entry_id=31&amp;isnewpage=1&amp;extparam=seat%3D1%26realpos%3D20%26dgr%3D0%26flag%3D1%26filter_type%3Drealtimehot%26c_type%3D31%26pos%3D21%26band_rank%3D20%26cate%3D5001%26lcate%3D5001%26stream_entry_id%3D31%26q%3D%2523%25E8%25BF%25AA%25E5%258D%25A1%25E4%25BE%25AC%25E5%259B%259E%25E5%25BA%2594%25E9%25A1%25BE%25E5%25AE%25A2%25E8%25AF%25AF%25E8%25AE%25A4%25E9%2580%258F%25E6%25B0%2594%25E5%25AD%2594%25E5%25BC%2584%25E4%25B8%25A2%25E6%2589%258B%25E6%259C%25BA%2523%26display_time%3D1762448160%26pre_seqid%3D176244816020103405730133&amp;launchid=10000360-page_H5" target="_blank" class="news-link">迪卡侬回应顾客误认透气孔弄丢手机</a> [20] <font color='grey'>- 01时25分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">DeepSeek chatgpt ai 人工智能</td>
+                <td class="count">1</td>
+                <td class="percentage">2.86%</td>
+                <td class="titles"><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/1969700024775574500" target="_blank" class="news-link">11 月 6 日华为 Mate70 Air 开启预售， 4199 元起，有哪些亮点值得关注，你会买吗？</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 01时25分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">医学 医疗 中央 反腐</td>
+                <td class="count">1</td>
+                <td class="percentage">2.86%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街] <a href="https://wallstreetcn.com/livenews/3000680" target="_blank" class="news-link">美国总统特朗普：感谢礼来与诺和诺德与美国达成药品价格协议。 两家公司的GLP-1s减肥药将在TrumpRX网站上架销售。 Zepbound和Wegovy价格将下调，医疗保险和医疗补助将涵盖这些减肥药物。 两家公司将在美国新建工厂。 礼来将在美国投资270亿美元，诺和诺德将投资100亿美元。 许多应用广泛的药品将实施60%的折扣。 美国民众应该支付全球最低的药价。 其他国家对美国医药定价协议感到不满。</a> <font color='red'><strong>[2]</strong></font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">合肥 浙江 舟山 安徽 天长 滁州 安庆 桐城 北京 中央 经济</td>
+                <td class="count">1</td>
+                <td class="percentage">2.86%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街] <a href="https://wallstreetcn.com/livenews/3000663" target="_blank" class="news-link">美联储理事Michael Barr（曾担任负责金融监管事务的副主席）：在通胀问题上去的进展，但仍然需要付出努力。 美国经济呈现出两种速度，其中富裕家庭（消费开支）表现强劲。 美联储必须关注“如何确保就业市场保持稳健状态”。</a> [15]</div></td>
+            </tr>
+        
+            <tr>
+                <td>5</td>
+                <td class="word">医保 医疗 社保 基金 公积金 政策 改革</td>
+                <td class="count">1</td>
+                <td class="percentage">2.86%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街] <a href="https://wallstreetcn.com/livenews/3000661" target="_blank" class="news-link">报道：瑞士将清算与First Brands有重大风险敞口的基金</a> [17] <font color='grey'>- 01时25分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
