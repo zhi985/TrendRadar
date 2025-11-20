@@ -1,0 +1,95 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 33</p><p>生成时间: 2025-11-21 05:25:01</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">合肥 浙江 舟山 安徽 天长 滁州 安庆 桐城 北京 中央 经济</td>
+                <td class="count">4</td>
+                <td class="percentage">12.12%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街] <a href="https://wallstreetcn.com/livenews/3008161" target="_blank" class="news-link">白宫国家经济委员会主任凯文·哈塞特：数据表明，我们（美联储）应该在12月份降息。 美联储主席候选人清单上的人都是谦逊的。</a> [16]</div><br><div class='new-title'>🆕 [华尔街] <a href="https://wallstreetcn.com/livenews/3008160" target="_blank" class="news-link">白宫国家经济委员会主任凯文·哈塞特：航空公司还没有看到正常的圣诞节航班预定。</a> [17] <font color='grey'>- 05时25分</font></div><br><div class='new-title'>🆕 [华尔街] <a href="https://wallstreetcn.com/livenews/3008159" target="_blank" class="news-link">白宫国家经济委员会主任凯文·哈塞特：不知道10月份的美国失业率。 美国政府关门事件所造成的负面影响超过预期。 政府停摆将对四季度经济不利。</a> [18]</div><br><div class='new-title'>🆕 [华尔街] <a href="https://wallstreetcn.com/livenews/3008158" target="_blank" class="news-link">白宫国家经济委员会主任凯文·哈塞特：建筑工人在9月份激增。 工厂产出飙升。 数据中可以看到薪资增长。</a> [19]</div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">DeepSeek chatgpt ai 人工智能</td>
+                <td class="count">2</td>
+                <td class="percentage">6.06%</td>
+                <td class="titles"><div class='new-title'>🆕 [kaopu] <a href="http://cn.nikkei.com/columnviewpoint/column/60523-2025-11-21-05-00-35.html" target="_blank" class="news-link">AI与19世纪铁路热相似,破产潮是必然?</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 05时25分</font></div><br><div class='new-title'>🆕 [华尔街见闻] <a href="https://wallstreetcn.com/articles/3759810" target="_blank" class="news-link">英伟达业绩打脸AI泡沫论？分析师：该担心的不是英伟达，而是用债务堆起来的数据中心</a> [9] <font color='grey'>- 05时25分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">医保 医疗 社保 基金 公积金 政策 改革</td>
+                <td class="count">1</td>
+                <td class="percentage">3.03%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街] <a href="https://wallstreetcn.com/livenews/3008178" target="_blank" class="news-link">美国芝加哥联储主席Goolsbee（2025年FOMC票委）：过去三个月的通胀充其量是保持稳定，从某些衡量标准来看更糟。 在确定通胀回升是否是暂时的之前，对提前大幅降息感到不安。 认为美联储主席鲍威尔努力建立共识的做法很有价值。 如果我最终意见强烈，且与其他美联储政策制定者意见不同，提出异议也没有错。 在美联储9月降息后，认为2025年只需要再降息一次。 当我投票支持美联储10月降息时，假定就业市场正在逐渐降温。 9月就业数据显示稳定、温和降温；失业救济申请没有显示快速恶化。 官方政府数据是“一团糟”；缺乏通胀可见性带来的风险大于缺乏劳动力市场可见性带来的风险，因为劳动力市场有更多替代数据。 就中期利率而言，他不是鹰派。 相信利率将远低于目前的水平。</a> <font color='red'><strong>[4]</strong></font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
