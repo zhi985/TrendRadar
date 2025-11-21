@@ -1,0 +1,111 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 101</p><p>生成时间: 2025-11-21 18:29:07</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">DeepSeek chatgpt ai 人工智能</td>
+                <td class="count">5</td>
+                <td class="percentage">4.95%</td>
+                <td class="titles"><div class='new-title'>🆕 [奇客] <a href="https://www.solidot.org/story?sid=82855" target="_blank" class="news-link">清华去年获得 AI 专利数超过 MIT、斯坦福、普林斯顿和哈佛的总和</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 18时29分</font></div><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2207484" target="_blank" class="news-link">【焦点复盘】沪指放量长阴失守3900点，全市场超450股跌超7%，AI应用端一枝独秀</a> [13] <font color='grey'>- 18时29分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%23%E7%94%B7%E5%AD%90%E6%89%93%E5%8D%B0500%E9%A1%B5%E8%81%8A%E5%A4%A9%E8%AE%B0%E5%BD%95%E6%AC%B2%E8%B5%B7%E8%AF%89AI%23&amp;t=31&amp;band_rank=20&amp;Refer=top" target="_blank" class="news-link">男子打印500页聊天记录欲起诉AI</a> [20] <font color='grey'>- 18时29分</font></div><br><div class='new-title'>🆕 [华尔街] <a href="https://wallstreetcn.com/livenews/3008623" target="_blank" class="news-link">华为在上海举办“2025 AI容器应用落地与发展论坛”，会上正式发布并开源了创新AI容器技术Flex:ai</a> [23] <font color='grey'>- 18时29分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%E6%98%8E%E6%98%9FAI%E6%BE%84%E6%B8%85%E5%85%83%E5%B9%B4&amp;t=31&amp;band_rank=24&amp;Refer=top" target="_blank" class="news-link">明星AI澄清元年</a> [24] <font color='grey'>- 18时29分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">合肥 浙江 舟山 安徽 天长 滁州 安庆 桐城 北京 中央 经济</td>
+                <td class="count">2</td>
+                <td class="percentage">1.98%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街] <a href="https://wallstreetcn.com/livenews/3008621" target="_blank" class="news-link">财政部副部长宋其超出席中亚区域经济合作机制第24次部长级会议</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 18时29分</font></div><br><div class='new-title'>🆕 [kaopu] <a href="https://www.rfi.fr/cn/%E7%BC%A4%E7%BA%B7%E4%B8%96%E7%95%8C/20251121-%E5%8F%A4%E5%B7%B4%E7%A5%B8%E4%B8%8D%E5%8D%95%E8%A1%8C-%E7%BB%8F%E6%B5%8E%E5%8D%B1%E6%9C%BA%E7%BC%BA%E7%B2%AE%E7%BC%BA%E8%8D%AF%E5%8F%88%E7%88%86%E5%B1%88%E5%85%AC%E7%97%85%E7%96%AB%E6%83%85" target="_blank" class="news-link">古巴祸不单行 经济危机缺粮缺药又爆屈公病疫情</a> [20]</div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">医保 医疗 社保 基金 公积金 政策 改革</td>
+                <td class="count">2</td>
+                <td class="percentage">1.98%</td>
+                <td class="titles"><div class='new-title'>🆕 [kaopu] <a href="https://www.zaobao.com.sg/realtime/world/story20251121-7852858" target="_blank" class="news-link">美国新规：实行多元平等包容政策的国家侵犯人权</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 18时29分</font></div><br><div class='new-title'>🆕 [kaopu] <a href="https://www.rfi.fr/cn/%E5%9B%BD%E9%99%85%E6%8A%A5%E9%81%93/20251121-%E7%BE%8E%E5%9B%BD%E4%BA%BA%E6%9D%83%E6%8A%A5%E5%91%8A%E6%94%BF%E7%AD%96%E5%A4%A7%E8%BD%AC%E5%BC%AF-%E5%B0%86%E7%BA%B3%E6%80%A7%E5%88%AB%E5%8F%98%E6%9B%B4%E4%B8%8E%E5%B9%B3%E6%9D%83%E8%AE%AE%E9%A2%98" target="_blank" class="news-link">美国人权报告政策大转弯 将纳性别变更与平权议题</a> [29] <font color='grey'>- 18时29分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">iphone ipad mac ios 手机 华为 OPPO VIVO 一加</td>
+                <td class="count">1</td>
+                <td class="percentage">0.99%</td>
+                <td class="titles"><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7574705023327862827/" target="_blank" class="news-link">华为高管：奥迪燃油车已实现OTA</a> [6] <font color='grey'>- 18时29分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>5</td>
+                <td class="word">车祸 开车+事故 警示录 警示 小明 背锅 骑车 汽车 碰撞 撞</td>
+                <td class="count">1</td>
+                <td class="percentage">0.99%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街] <a href="https://wallstreetcn.com/livenews/3008609" target="_blank" class="news-link">上交所：本周对*ST正平、*ST亚振等异常波动退市风险警示股票，以及合富中国等严重异常波动股票进行重点监控。</a> [10] <font color='grey'>- 18时29分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
