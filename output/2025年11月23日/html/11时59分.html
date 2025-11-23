@@ -1,0 +1,111 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 88</p><p>生成时间: 2025-11-23 11:59:50</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">合肥 浙江 舟山 安徽 天长 滁州 安庆 桐城 北京 中央 经济</td>
+                <td class="count">3</td>
+                <td class="percentage">3.41%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街] <a href="https://wallstreetcn.com/livenews/3009034" target="_blank" class="news-link">今年我国低空经济市场规模预计将达1.5万亿元</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 11时59分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%23%E5%8C%97%E4%BA%AC%E4%B8%80%E7%94%B7%E5%AD%90%E9%86%89%E9%A9%BE%E7%94%B5%E5%8A%A8%E8%BD%A6%E8%BF%9E%E6%91%946%E6%AC%A1%E8%BA%AB%E4%BA%A1%23&amp;t=31&amp;band_rank=13&amp;Refer=top" target="_blank" class="news-link">北京一男子醉驾电动车连摔6次身亡</a> [13] <font color='grey'>- 11时59分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7575545665889173510/" target="_blank" class="news-link">安徽省委书记随机抽点6名正厅发言</a> [29] <font color='grey'>- 11时59分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">iphone ipad mac ios 手机 华为 OPPO VIVO 一加</td>
+                <td class="count">2</td>
+                <td class="percentage">2.27%</td>
+                <td class="titles"><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1174476" target="_blank" class="news-link">一次可以清理几十个 G 的 Mac 系统优化工具 Mole 小鼹鼠更新了</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 11时59分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1174465" target="_blank" class="news-link">请教一个 iOS 项目埋点的问题</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 11时59分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">DeepSeek chatgpt ai 人工智能</td>
+                <td class="count">1</td>
+                <td class="percentage">1.14%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻] <a href="https://wallstreetcn.com/articles/3759933" target="_blank" class="news-link">AI又团灭一个行业</a> [8] <font color='grey'>- 11时59分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">医保 医疗 社保 基金 公积金 政策 改革</td>
+                <td class="count">1</td>
+                <td class="percentage">1.14%</td>
+                <td class="titles"><div class='new-title'>🆕 [澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_32024891" target="_blank" class="news-link">央媒关注某高校“首席科学家”涉嫌造假被查：改革完善人才评聘机制</a> [20] <font color='grey'>- 11时59分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>5</td>
+                <td class="word">车祸 开车+事故 警示录 警示 小明 背锅 骑车 汽车 碰撞 撞</td>
+                <td class="count">1</td>
+                <td class="percentage">1.14%</td>
+                <td class="titles"><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%23%E4%B8%88%E5%A4%AB%E8%AF%B4%E8%BD%A6%E7%A5%B8%E9%81%87%E9%9A%BE%E5%A5%B3%E5%AD%90%E6%99%9A%E5%8D%8A%E5%B0%8F%E6%97%B6%E5%B0%B1%E5%A5%BD%E4%BA%86%23&amp;t=31&amp;band_rank=27&amp;Refer=top" target="_blank" class="news-link">丈夫说车祸遇难女子晚半小时就好了</a> [27] <font color='grey'>- 11时59分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
