@@ -1,0 +1,111 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 164</p><p>生成时间: 2025-11-28 10:01:49</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">车祸 开车+事故 警示录 警示 小明 背锅 骑车 汽车 碰撞 撞</td>
+                <td class="count">4</td>
+                <td class="percentage">2.44%</td>
+                <td class="titles"><div class='new-title'>🆕 [kaopu] <a href="https://www.zaobao.com.sg/realtime/singapore/story20251128-7884585" target="_blank" class="news-link">涉车祸后弃车逃致骑士死亡 男汽车驾驶员被控八罪</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 10时01分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E5%9B%BD%E5%8A%A1%E9%99%A2%E5%AE%89%E5%A7%94%E4%BC%9A%E6%8C%82%E7%89%8C%E7%9D%A3%E5%8A%9E%E5%88%97%E8%BD%A6%E6%92%9E%E4%BA%BA%E4%BA%8B%E6%95%85" target="_blank" class="news-link">国务院安委会挂牌督办列车撞人事故</a> [9] <font color='grey'>- 10时01分</font></div><br><div class='new-title'>🆕 [kaopu] <a href="https://www.zaobao.com.sg/realtime/china/story20251128-7884537" target="_blank" class="news-link">四川德阳火车站列车撞人 两工作人员身亡</a> [10] <font color='grey'>- 10时01分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7577569657373068850/" target="_blank" class="news-link">媒体追问列车撞人事故</a> [24] <font color='grey'>- 10时01分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">iphone ipad mac ios 手机 华为 OPPO VIVO 一加</td>
+                <td class="count">2</td>
+                <td class="percentage">1.22%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街] <a href="https://wallstreetcn.com/livenews/3011754" target="_blank" class="news-link">Counterpoint Research：预计2025年全球智能手机出货量将同比增长3.3%</a> [11] <font color='grey'>- 10时01分</font></div><br><div class='new-title'>🆕 [华尔街] <a href="https://wallstreetcn.com/livenews/3011740" target="_blank" class="news-link">华为、中兴通讯在越南签署5G协议。（路透）</a> [21] <font color='grey'>- 10时01分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">合肥 浙江 舟山 安徽 天长 滁州 安庆 桐城 北京 中央 经济</td>
+                <td class="count">2</td>
+                <td class="percentage">1.22%</td>
+                <td class="titles"><div class='new-title'>🆕 [kaopu] <a href="https://www.zaobao.com.sg/realtime/china/story20251128-7884559" target="_blank" class="news-link">新西兰舰艇通过台海 北京警告勿向台独势力发出错误信号</a> [8] <font color='grey'>- 10时01分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E5%8C%97%E4%BA%AC%E5%8F%91%E5%B8%83%E5%A4%AA%E7%A9%BA%E6%95%B0%E6%8D%AE%E4%B8%AD%E5%BF%83%E5%BB%BA%E8%AE%BE%E8%A7%84%E5%88%92%E6%96%B9%E6%A1%88" target="_blank" class="news-link">北京发布太空数据中心建设规划方案</a> [30] <font color='grey'>- 10时01分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">医保 医疗 社保 基金 公积金 政策 改革</td>
+                <td class="count">2</td>
+                <td class="percentage">1.22%</td>
+                <td class="titles"><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E5%A4%AE%E8%A7%86%E6%9B%9D%E5%85%89%E5%B0%8F%E8%AF%8A%E6%89%80%E7%94%A8%E5%8C%BB%E4%BF%9D%E5%8D%A1%E6%8D%A2%E8%B1%86%E6%B2%B9%E5%92%8C%E9%9D%A2" target="_blank" class="news-link">央视曝光小诊所用医保卡换豆油和面</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 10时01分</font></div><br><div class='new-title'>🆕 [华尔街] <a href="https://wallstreetcn.com/livenews/3011743" target="_blank" class="news-link">月内340余只基金产品实施限购</a> [19] <font color='grey'>- 10时01分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>5</td>
+                <td class="word">医学 医疗 中央 反腐</td>
+                <td class="count">1</td>
+                <td class="percentage">0.61%</td>
+                <td class="titles"><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7577393550293172243/" target="_blank" class="news-link">江西现役军人陶奇获中央军委一级表彰</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 10时01分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
