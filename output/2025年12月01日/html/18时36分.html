@@ -1,0 +1,103 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 90</p><p>生成时间: 2025-12-01 18:36:06</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">DeepSeek chatgpt ai 人工智能</td>
+                <td class="count">3</td>
+                <td class="percentage">3.33%</td>
+                <td class="titles"><div class='new-title'>🆕 [参考消息] <a href="https://ckxxapp.ckxx.net/pages/2025/12/01/349fcdf84db04af0952b0a7e19d43b58.html" target="_blank" class="news-link">外媒：人工智能推动美国“黑五”消费创新高</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 18时36分</font></div><br><div class='new-title'>🆕 [华尔街见闻] <a href="https://wallstreetcn.com/articles/3760419" target="_blank" class="news-link">三年前，ChatGPT发布，“AI狂潮”席卷全球，一个新时代拉开帷幕</a> [9] <font color='grey'>- 18时36分</font></div><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2215716" target="_blank" class="news-link">马斯克震撼预言：AI将在三年内终结美国“债务危机”！</a> [12] <font color='grey'>- 18时36分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">医保 医疗 社保 基金 公积金 政策 改革</td>
+                <td class="count">2</td>
+                <td class="percentage">2.22%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街] <a href="https://wallstreetcn.com/livenews/3012970" target="_blank" class="news-link">芯原股份：兴橙投资方和国开基金拟减持1%和0.15%股份</a> [12] <font color='grey'>- 18时36分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E4%B8%AD%E5%9B%BD%E5%85%8D%E7%AD%BE%E6%94%BF%E7%AD%96%E5%9C%A8%E5%85%A8%E7%90%83%E8%B5%A2%E5%BE%97%E6%9B%B4%E5%A4%9A%E5%9B%9E%E5%93%8D" target="_blank" class="news-link">中国免签政策在全球赢得更多回响</a> [30] <font color='grey'>- 18时36分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">车祸 开车+事故 警示录 警示 小明 背锅 骑车 汽车 碰撞 撞</td>
+                <td class="count">1</td>
+                <td class="percentage">1.11%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街] <a href="https://wallstreetcn.com/livenews/3012957" target="_blank" class="news-link">小鹏汽车：2025年11月交付智能电动汽车36,728辆，同比增长19%。 2025年1月至11月，累计交付量达391,937辆，同比增长156%。</a> [18]</div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">社保 养老 医疗 生育 失业 工伤 保险 缴费</td>
+                <td class="count">1</td>
+                <td class="percentage">1.11%</td>
+                <td class="titles"><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2215570" target="_blank" class="news-link">个人养老金制度全面推广即将一周年，多家银行新增开户势头已趋缓，“缴存冷”仍待破题</a> [13] <font color='grey'>- 18时36分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
